@@ -1,8 +1,12 @@
 import React from 'react';
+import Container from 'react-bootstrap/Container';
+import Jumbo from './Jumbo';
 
 function Contact() {
     return(
-        <div>Estoy en el Contact</div>
+        <Container fluid={true}>
+            <Jumbo title="Contact Me!"/>
+        </Container>
     );
 }
 

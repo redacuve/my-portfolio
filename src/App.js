@@ -30,7 +30,7 @@ class App extends React.Component {
             <Router>
                 <NavBar />
                 <Container fluid={true}>
-                    <Route path="/" exact render={() => <Homepage />} />
+                    <Route path="/" exact render={() => <Homepage title="Rey David Cuevas Vela" subtitle="Freelance Full Stack Web Developer" text="HTML/CSS | Ruby | Rails | JavaScript | React | Redux"/>} />
                     <Route path="/resume" exact render={() => <Resume />} />
                     <Route path="/contact" exact render={() => <Contact />} />
                 </Container> 

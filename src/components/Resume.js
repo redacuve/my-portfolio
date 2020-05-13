@@ -1,8 +1,11 @@
 import React from 'react';
-
+import Container from 'react-bootstrap/Container'
+import Jumbo from './Jumbo';
 function Resume() {
     return(
-        <div>Estoy en el Resume</div>
+        <Container fluid={true}>
+            <Jumbo title="My Resume" />
+        </Container>
     );
 }
 

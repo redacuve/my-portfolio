@@ -1,8 +1,12 @@
 import React from 'react';
+import Container from 'react-bootstrap/Container';
+import Jumbo from './Jumbo';
 
-function Homepage() {
+function Homepage(props) {
     return(
-        <div>Estoy en el Homepage</div>
+        <Container fluid={true}>
+            <Jumbo title={props.title} subtitle={props.subtitle} text={props.text} />  
+        </Container>
     );
 }
 
