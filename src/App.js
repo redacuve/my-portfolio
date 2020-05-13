@@ -15,6 +15,9 @@ import Container from 'react-bootstrap/Container';
 // My Components
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
+import Homepage from './components/Homepage';
+import Resume from './components/Resume';
+import Contact from './components/Contact';
 
 class App extends React.Component {
     constructor(props){
@@ -27,7 +30,9 @@ class App extends React.Component {
             <Router>
                 <NavBar />
                 <Container fluid={true}>
-                
+                    <Route path="/" exact render={() => <Homepage />} />
+                    <Route path="/resume" exact render={() => <Resume />} />
+                    <Route path="/contact" exact render={() => <Contact />} />
                 </Container> 
                 <Footer />
             </Router>
