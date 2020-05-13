@@ -1,11 +1,16 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Jumbo from './Jumbo';
+import Carrousel from './Carrousel';
 
 function Homepage(props) {
-    return(
+    return (
         <Container fluid={true}>
-            <Jumbo title={props.title} subtitle={props.subtitle} text={props.text} />  
+            <Jumbo title={props.title} subtitle={props.subtitle} text={props.text} />
+            <div className="bg-dark text-light">
+                <h3 className="p-2">My Projects:</h3>
+            </div>
+            <Carrousel />
         </Container>
     );
 }
