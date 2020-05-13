@@ -14,6 +14,7 @@ import Container from 'react-bootstrap/Container';
 
 // My Components
 import NavBar from './components/NavBar';
+import Footer from './components/Footer';
 
 class App extends React.Component {
     constructor(props){
@@ -28,6 +29,7 @@ class App extends React.Component {
                 <Container fluid={true}>
                 
                 </Container> 
+                <Footer />
             </Router>
         );
     }
