@@ -6,9 +6,9 @@ function Jumbo(props) {
     return(
         <Jumbotron fluid={true}>
             <Container>
-                <h1 class="display-4">{props.title}</h1>
-                <h4 class="display-5">{props.subtitle}</h4>
-                <p class="lead">{props.text}</p>
+                <h1 className="display-4">{props.title}</h1>
+                <h4 className="display-5">{props.subtitle}</h4>
+                <p className="lead">{props.text}</p>
             </Container>
         </Jumbotron>
     );
