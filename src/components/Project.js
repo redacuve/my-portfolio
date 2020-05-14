@@ -1,6 +1,7 @@
 import React from 'react';
 
 function Project(props){
+    
     return(
         <div className="project-container">
             <div className="project-image-container">
@@ -13,13 +14,16 @@ function Project(props){
                 </p>
                 <div className="project-technologies">
                     <ul>
-                        <li>Technologie 1</li>
-                        <li>Technologie 2</li>
+                        {
+                        props.item.technology.map((elem) => {
+                            return <li key={elem}>{elem}</li>
+                        })
+                        }
                     </ul>
                 </div>
-                <div className="project-links">
-                    <button>Live Version!</button>
-                    <button>Source Code</button>
+                <div className="project-links d-flex justify-content-around">
+                    <a href={props.item.live} className="btn btn-success" role="button">Live Version!</a>
+                    <a href={props.item.source} className="btn btn-info" role="button">Source Code</a>
                 </div>
             </div>
         </div>
