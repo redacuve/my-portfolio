@@ -9,6 +9,10 @@ import newsweek from '../assets/images/newsweek.png';
 import odinproject from '../assets/images/odinproject.png';
 import thenextweb from '../assets/images/thenextweb.png';
 import smashingheatmap from '../assets/images/smashingheatmap.png';
+import juegogato from '../assets/images/juegogato.png';
+import webscrapper from '../assets/images/webscrapper.png';
+import soduko from '../assets/images/soduko.png';
+import lakastapp from '../assets/images/lakastapp.png';
 
 
 class Carrousel extends React.Component {
@@ -67,49 +71,49 @@ class Carrousel extends React.Component {
                 {
                     id: 0,
                     title: 'Tic Tac Toe Game',
-                    text: 'The cookbook for Developers',
-                    imgSrc: 'cuenco',
+                    text: 'This is my own version of the Game Tic Tac Toe, in México this game is called \'El juego del Gato\', is playable on the console. ',
+                    imgSrc: juegogato,
                     live: 'http://www.livepage.com',
-                    source: 'http://www.githubsource.com',
-                    technology: ['javascript', 'html', 'css', 'react']
+                    source: 'https://github.com/redacuve/Juego-Gato',
+                    technology: ['Ruby']
                 },
                 {
                     id: 1,
                     title: 'MXN-USD Web Scrapper',
-                    text: 'The cookbook for Developers',
-                    imgSrc: 'cuenco',
+                    text: 'This is a USD-MXN web scraper. In México is very useful to know the value of the dollar every day, every bank here in Mexico has it own price of the dollar, this web scrapper goes to the webpage of every bank and scrap the value of the USD, then show it on the console, and saves it on a .csv file.',
+                    imgSrc: webscrapper,
                     live: 'http://www.livepage.com',
-                    source: 'http://www.githubsource.com',
-                    technology: ['javascript', 'html', 'css', 'react']
+                    source: 'https://github.com/redacuve/MXN-USD-Currency-Scraper/tree/mxn-usd-feature',
+                    technology: ['Ruby']
                 },
                 {
                     id: 2,
                     title: 'Soduko Solver',
-                    text: 'The cookbook for Developers',
-                    imgSrc: 'cuenco',
+                    text: 'This is a sudoku solver, it read a sudoku from a csv file and tries to solve it. Project written in Ruby Languaje.',
+                    imgSrc: soduko,
                     live: 'http://www.livepage.com',
-                    source: 'http://www.githubsource.com',
-                    technology: ['javascript', 'html', 'css', 'react']
+                    source: 'https://github.com/redacuve/sudoku-solver',
+                    technology: ['Ruby']
                 },
                 {
                     id: 3,
                     title: 'Lakastapp!',
-                    text: 'The cookbook for Developers',
-                    imgSrc: 'cuenco',
+                    text: 'This is a mobile web app where you can keep a record of every program you watch if the program is not in the database, is so easy to add that program!. With lakastapp you can know the time you watch every program.',
+                    imgSrc: lakastapp,
                     live: 'http://www.livepage.com',
-                    source: 'http://www.githubsource.com',
-                    technology: ['javascript', 'html', 'css', 'react']
+                    source: 'https://github.com/redacuve/lakastapp',
+                    technology: ['HTML', 'CSS', 'Ruby on Rails', 'Javascript']
                 }
             ],
             javascriptReact: [
                 {
                     id: 0,
                     title: 'My Portfolio',
-                    text: 'The cookbook for Developers',
+                    text: 'This is my personal site, and its responsive, It has very useful components easy for maintance.',
                     imgSrc: 'cuenco',
                     live: 'http://www.livepage.com',
-                    source: 'http://devgroup.com',
-                    technology: ['javascript', 'html', 'css', 'react']
+                    source: 'https://github.com/redacuve/my-portfolio',
+                    technology: ['HTML', 'CSS', 'React']
                 }
             ]
         }
