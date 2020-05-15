@@ -4,10 +4,10 @@ function SetList(props){
     return(
         <div className="set set-list">
             <h2>{props.title}</h2>
-            <ul className={(props.listflex === true) ? "d-flex" : ""}>
+            <ul className={(props.listflex === true) ? "d-flex flex-wrap" : ""}>
                 {
                 props.list.map(elem => {
-                    return <li key={elem}>{elem}</li>
+                    return <li className="pr-5" key={elem}>{elem}</li>
                 })
                 }
             </ul>

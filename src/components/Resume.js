@@ -10,7 +10,7 @@ function Resume() {
         <Container fluid={true}>
             <Jumbo title="My Resume:" subtitle="Rey David Cuevas Vela" text="Full Stack Web Developer" />
             <div className="row">
-                <div className="col-4">
+                <div className="col-12 col-lg-4">
                     <div>
                     <p>
                         Hello, I’m David I’m a full-stack software engineer. I have a computer science degree, I worked on IT in a company in Mexico, but now I’m looking for a remote job that will put my skills as a software engineer to work.
@@ -25,7 +25,7 @@ function Resume() {
                     </p>
                     </div>
                 </div>
-                <div className="col-8">
+                <div className="col-12 col-lg-8">
                     <MultSetList 
                         title="Software Skills Sets:"
                         multiset={

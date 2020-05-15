@@ -8,9 +8,9 @@ function MultiSetList(props){
             props.multiset.map(elem => {
                 return <div className="subset" key={elem.subtitle}>
                     <h5>{elem.subtitle}</h5>
-                    <ul className="d-flex">
+                    <ul className="d-flex list-unstyled flex-wrap">
                         {elem.list.map(lilist => {
-                            return <li key={lilist}>{lilist}</li>
+                            return <li className="pr-3" key={lilist}>{lilist}</li>
                         })}
                     </ul>
                 </div>
