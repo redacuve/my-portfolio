@@ -1,6 +1,9 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container'
 import Jumbo from './Jumbo';
+import SetList from './SetList';
+import MultSetList from './MultiSetList';
+
 function Resume() {
     return(
         <Container fluid={true}>
@@ -22,30 +25,22 @@ function Resume() {
                     </div>
                 </div>
                 <div className="col-8">
-                    <h2>Software Skills Sets:</h2>
-                    <p>
-                    Languajes:
-                    JavaScript, Ruby, PHP, HTML, CSS/SASS, C#, Java, C++.
-
-                    Frameworks /Libraries:
-                    Ruby on Rails, Django, React, Redux, Angular, jQuery, Bootstrap, Node Js.
-                    Databases:
-                    SQLite3, Mysql, Postgresql.
-                    Others:
-                    Git, GitHub, Amazon S3, IBM Cloud, Heroku, Remote Work, Pair Programming,
-                    Testing:
-                    RSpec, Minitest, Capynara.
-                    </p>
-                    <h2>Soft Skills:</h2>
-                    <p>
-                        Integrity.
-                        Professionalism.
-                        Positive Attitude.
-                        Teamwork.
-                        Work ethic.
-                        Critical Thinking.
-                        Mentoring.
-                    </p>
+                    <MultSetList 
+                        title="Software Skills Sets:"
+                        multiset={
+                            [
+                                {subtitle: 'Languajes:', list: ['JavaScript', 'Ruby', 'PHP', 'HTML', 'CSS/SASS', 'C#', 'Java', 'C++']},
+                                {subtitle: 'Frameworks/Libraries:', list: ['Ruby on Rails', 'Django', 'React', 'Redux', 'jQuery', 'Bootstrap', 'Node Js']},
+                                {subtitle: 'Databases:', list: ['SQLite3', 'Mysql', 'Postgresql']},
+                                {subtitle: 'Others:', list: ['Git', 'GitHub', 'Amazon S3', 'IBM Cloud', 'Heroku', 'Remote Work', 'Pair Programming']},
+                                {subtitle: 'Testing:', list: ['RSpec', 'Minitest', 'Capybara']}
+                            ]}
+                    />
+                    <SetList 
+                        title="Soft Skills:" 
+                        list={['Integrity.', 'Professionalism.', 'Positive Attitude.', 'Teamwork.', 'Work ethic.', 'Critical Thinking.', 'Mentoring.']} 
+                        listflex={false}
+                    />
                     <h2>Education:</h2>
                     <p>
                     2019 – 2020 Microverse, Full Stack Web Developer Diploma. 
@@ -68,20 +63,16 @@ function Resume() {
                     Desing and program the website.
                     Mantaining the website.
                     </p>
-                    <h2>Languajes:</h2>
-                    <p>
-                        English
-                        Spanish
-                    </p>
-                    <h2>Interest:</h2>
-                    <p>
-                    Chess
-                    Reading
-                    Music
-                    Sports
-                    Travel
-                    Cooking
-                    </p>
+                    <SetList 
+                        title="Languajes:"
+                        list={['English', 'Spanish']}
+                        listflex={true}
+                    />
+                    <SetList 
+                        title="Interest:" 
+                        list={['Chess', 'Reading', 'Music', 'Sports', 'Travel', 'Cooking']}
+                        listflex={true}
+                    />
                 </div>
             </div>
         </Container>

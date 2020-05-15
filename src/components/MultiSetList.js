@@ -1,0 +1,25 @@
+import React from 'react';
+
+function MultiSetList(props){
+    return(
+        <div className="set multiset-list">
+            <h2>{props.title}</h2>
+            {console.log(props.multiset)}
+            {
+            props.multiset.map(elem => {
+                return <div className="subset">
+                    <h5>{elem.subtitle}</h5>
+                    <ul className="d-flex">
+                        {elem.list.map(lilist => {
+                            return <li key={lilist}>{lilist}</li>
+                        })}
+                    </ul>
+                </div>
+            })
+            
+            }
+        </div>
+    );
+}
+
+export default MultiSetList;
