@@ -3,23 +3,21 @@ import React from 'react';
 function Project(props){
     
     return(
-        <div className="project-container">
+        <div className="project-container p-1">
             <div className="project-image-container">
-                <img src="" alt="image-alt" />
+                <img src={props.item.imgSrc} alt="image-alt" />
             </div>
             <div className="project-content">
-                <h3>{props.item.title}</h3>
+                <h3 className="mt-1 mb-2">{props.item.title}</h3>
                 <p className="project-text">
                     {props.item.text}
                 </p>
                 <div className="project-technologies">
-                    <ul>
-                        {
+                    {
                         props.item.technology.map((elem) => {
-                            return <li key={elem}>{elem}</li>
+                            return <span className="" key={elem}>{elem}</span>
                         })
-                        }
-                    </ul>
+                    }
                 </div>
                 <div className="project-links d-flex justify-content-around">
                     <a href={props.item.live} className="btn btn-success" role="button">Live Version!</a>
