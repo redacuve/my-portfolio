@@ -1,9 +1,9 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container'
-import Jumbo from './Jumbo';
-import SetList from './SetList';
-import MultSetList from './MultiSetList';
-import DateSet from './DateSet.js';
+import Jumbo from '../components/Jumbo';
+import SetList from '../components/SetList';
+import MultSetList from '../components/MultiSetList';
+import DateSet from '../components/DateSet.js';
 
 function Resume() {
     return(

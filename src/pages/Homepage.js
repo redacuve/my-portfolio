@@ -1,7 +1,7 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
-import Jumbo from './Jumbo';
-import Carrousel from './Carrousel';
+import Jumbo from '../components/Jumbo';
+import Carrousel from '../components/Carrousel';
 
 function Homepage(props) {
     return (

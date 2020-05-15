@@ -13,9 +13,9 @@ import Container from 'react-bootstrap/Container';
 // My Components
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
-import Homepage from './components/Homepage';
-import Resume from './components/Resume';
-import Contact from './components/Contact';
+import Homepage from './pages/Homepage';
+import Resume from './pages/Resume';
+import Contact from './pages/Contact';
 
 class App extends React.Component {
     constructor(props){
