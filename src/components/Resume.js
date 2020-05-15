@@ -47,9 +47,27 @@ function Resume() {
                         Mentoring.
                     </p>
                     <h2>Education:</h2>
-                    <p></p>
+                    <p>
+                    2019 – 2020 Microverse, Full Stack Web Developer Diploma. 
+                    2010 – 2015 Universidad Veracruzana, Degree on Computer Science.
+                    </p>
                     <h2>Professional Experience:</h2>
-                    <p></p>
+                    <p>
+                    2010 – 2020 Freelance Hardware and Software Seller.
+                    2015 – 2020 Freelance Developer
+                    2015 – 2019
+                    CDE PANVER, Director of IT Deparment
+                    Creating software when it's time for elections.
+                    Providing help desk across the company.
+                    Installing and configuring computer hardware, software, systems, networks, telephony, printers, and scanners.
+                    Maintaining computer systems and networks.
+                    Repairing computers and printers.
+                    Training junior staff members.
+                    2014 – 2017
+                    elclarin.com.mx, Designer, programmer and webmaster
+                    Desing and program the website.
+                    Mantaining the website.
+                    </p>
                     <h2>Languajes:</h2>
                     <p>
                         English
