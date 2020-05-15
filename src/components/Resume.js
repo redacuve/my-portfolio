@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container'
 import Jumbo from './Jumbo';
 import SetList from './SetList';
 import MultSetList from './MultiSetList';
+import DateSet from './DateSet.js';
 
 function Resume() {
     return(
@@ -40,6 +41,9 @@ function Resume() {
                         title="Soft Skills:" 
                         list={['Integrity.', 'Professionalism.', 'Positive Attitude.', 'Teamwork.', 'Work ethic.', 'Critical Thinking.', 'Mentoring.']} 
                         listflex={false}
+                    />
+                    <DateSet 
+
                     />
                     <h2>Education:</h2>
                     <p>
