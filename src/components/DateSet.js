@@ -2,7 +2,24 @@ import React from 'react'
 
 function DateSet(props){
     return(
-        <div>DateSet</div>
+        <div className="dateset">
+            <h2>{props.title}</h2>
+            {props.list.map(elem => {
+                return (
+                <div class="row">
+                    <div className="dates col-3">
+                        {elem.dates}
+                    </div>
+                    <div className="info col-9">
+                        <p>{elem.description}</p>
+                        {elem.duties && <ul>{elem.duties.map(elem => {return <li key={elem}>{elem}</li>})}</ul>}
+                    </div>
+                </div>
+            )})
+            }
+                
+
+        </div>
     );
 }
 

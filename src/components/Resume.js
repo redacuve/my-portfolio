@@ -21,7 +21,7 @@ function Resume() {
                     </p>
                     <h3>Phone</h3>
                     <p>
-                        +52 (271) 173-0101
+                        +52 (228) 185-5336
                     </p>
                     </div>
                 </div>
@@ -43,30 +43,21 @@ function Resume() {
                         listflex={false}
                     />
                     <DateSet 
-
+                        title="Education:"
+                        list={[
+                            {dates: '2019 – 2020', description: 'Microverse, Full Stack Web Developer Diploma.'},
+                            {dates: '2010 – 2015', description: 'Universidad Veracruzana, Degree on Computer Science.'}
+                        ]}
                     />
-                    <h2>Education:</h2>
-                    <p>
-                    2019 – 2020 Microverse, Full Stack Web Developer Diploma. 
-                    2010 – 2015 Universidad Veracruzana, Degree on Computer Science.
-                    </p>
-                    <h2>Professional Experience:</h2>
-                    <p>
-                    2010 – 2020 Freelance Hardware and Software Seller.
-                    2015 – 2020 Freelance Developer
-                    2015 – 2019
-                    CDE PANVER, Director of IT Deparment
-                    Creating software when it's time for elections.
-                    Providing help desk across the company.
-                    Installing and configuring computer hardware, software, systems, networks, telephony, printers, and scanners.
-                    Maintaining computer systems and networks.
-                    Repairing computers and printers.
-                    Training junior staff members.
-                    2014 – 2017
-                    elclarin.com.mx, Designer, programmer and webmaster
-                    Desing and program the website.
-                    Mantaining the website.
-                    </p>
+                    <DateSet 
+                        title="Professional Experience:"
+                        list={[
+                            {dates: '2010 – 2020', description: 'Freelance Hardware and Software Seller.'},
+                            {dates: '2015 – 2020', description: 'Freelance Developer and IT Specialist'},
+                            {dates: '2015 – 2019', description: 'CDE PANVER, Director of IT Deparment.', duties: ['Creating software when it\'s time for elections.', 'Providing help desk across the company.', 'Installing and configuring computer hardware, software, systems, networks, telephony, printers, and scanners.', 'Maintaining computer systems and networks.', 'Repairing computers and printers.', 'Training junior staff members.'] },
+                            {dates: '2014 – 2017', description: 'elclarin.com.mx, Designer, programmer and webmaster.', duties: ['Desing and program the website.', 'Mantaining the website.']},
+                        ]}
+                    />
                     <SetList 
                         title="Languajes:"
                         list={['English', 'Spanish']}

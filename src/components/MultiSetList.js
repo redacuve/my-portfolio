@@ -4,7 +4,6 @@ function MultiSetList(props){
     return(
         <div className="set multiset-list">
             <h2>{props.title}</h2>
-            {console.log(props.multiset)}
             {
             props.multiset.map(elem => {
                 return <div className="subset">
