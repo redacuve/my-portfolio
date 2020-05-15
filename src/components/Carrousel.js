@@ -109,7 +109,7 @@ class Carrousel extends React.Component {
                 {
                     id: 0,
                     title: 'My Portfolio',
-                    text: 'This is my personal site, and its responsive, It has very useful components easy for maintance.',
+                    text: 'This is my personal site, and its responsive, It has very useful components for easy for maintance.',
                     imgSrc: 'cuenco',
                     live: 'http://www.livepage.com',
                     source: 'https://github.com/redacuve/my-portfolio',
