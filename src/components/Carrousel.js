@@ -136,6 +136,9 @@ class Carrousel extends React.Component {
             case 3:
                 this.setState({default: 'javascriptReact'});
                 break;
+            default:
+                this.setState({default: 'htmlCss'});
+                break;
         }
     }
 
@@ -143,9 +146,9 @@ class Carrousel extends React.Component {
         return(
             <Container fluid={true} >
                     <Nav className="border-bottom justify-content-center">
-                        <a className="nav-link text-dark" onClick={()=> this.changeDefault(1)}>HTML / CSS</a>
-                        <a className="nav-link text-dark" onClick={()=> this.changeDefault(2)}>Ruby / Rails</a>
-                        <a className="nav-link text-dark" onClick={()=> this.changeDefault(3)}>Javascript / React</a>
+                        <button className="nav-link text-dark" onClick={()=> this.changeDefault(1)}>HTML / CSS</button>
+                        <button className="nav-link text-dark" onClick={()=> this.changeDefault(2)}>Ruby / Rails</button>
+                        <button className="nav-link text-dark" onClick={()=> this.changeDefault(3)}>Javascript / React</button>
                     </Nav>
                     <div className="projects-container d-flex justify-content-around flex-wrap">
                         {this.myProjects(this.state[this.state.default])}

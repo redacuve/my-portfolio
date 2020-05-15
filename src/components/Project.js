@@ -5,7 +5,7 @@ function Project(props){
     return(
         <div className="project-container p-1">
             <div className="project-image-container">
-                <img src={props.item.imgSrc} alt="image-alt" />
+                <img src={props.item.imgSrc} alt={'project ' + props.item.title + ' image'} />
             </div>
             <div className="project-content">
                 <h3 className="mt-1 mb-2">{props.item.title}</h3>

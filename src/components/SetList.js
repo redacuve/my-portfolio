@@ -7,7 +7,7 @@ function SetList(props){
             <ul className={(props.listflex === true) ? "d-flex" : ""}>
                 {
                 props.list.map(elem => {
-                    return <li key="elem">{elem}</li>
+                    return <li key={elem}>{elem}</li>
                 })
                 }
             </ul>

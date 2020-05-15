@@ -4,9 +4,7 @@ import React from 'react';
 // External Libraries
 import {
     BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
+    Route
   } from "react-router-dom";
 
 // Bootstrap Components

@@ -4,9 +4,9 @@ function DateSet(props){
     return(
         <div className="dateset">
             <h2>{props.title}</h2>
-            {props.list.map(elem => {
+            {props.list.map((elem, index) => {
                 return (
-                <div class="row">
+                <div className="row" key={index}>
                     <div className="dates col-3">
                         {elem.dates}
                     </div>
