@@ -7,8 +7,9 @@ function Jumbo(props) {
         <Jumbotron fluid={true}>
             <Container>
                 <h1 className="display-4">{props.title}</h1>
-                <h4 className="display-5">{props.subtitle}</h4>
-                <p className="lead">{props.text}</p>
+                {props.subtitle && <h4 className="display-5">{props.subtitle}</h4>}
+                {props.text && <p className="lead">{props.text}</p>}
+                {props.children}
             </Container>
         </Jumbotron>
     );
