@@ -13,7 +13,7 @@ import juegogato from '../assets/images/juegogato.png';
 import webscrapper from '../assets/images/webscrapper.png';
 import soduko from '../assets/images/soduko.png';
 import lakastapp from '../assets/images/lakastapp.png';
-import my-portfolio from '../assets/images/my-portfolio.png';
+import myPortfolio from '../assets/images/my-portfolio.png';
 
 
 class Carrousel extends React.Component {
@@ -111,7 +111,7 @@ class Carrousel extends React.Component {
                     id: 0,
                     title: 'My Portfolio',
                     text: 'This is my personal site, and its responsive, It has very useful components for easy for maintance.',
-                    imgSrc: my-portfolio,
+                    imgSrc: myPortfolio,
                     live: 'https://redacuve.github.io/my-portfolio/',
                     source: 'https://github.com/redacuve/my-portfolio',
                     technology: ['HTML', 'CSS', 'React']
