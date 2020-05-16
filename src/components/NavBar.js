@@ -10,9 +10,9 @@ function NavBar() {
             <Navbar.Toggle aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle">
                 <Nav className="ml-auto">
-                    <Link className="nav-link" to="/">Home</Link>
-                    <Link className="nav-link" to="/resume">Resume</Link>
-                    <Link className="nav-link" to="/contact">Contact</Link>
+                    <Link className="nav-link" to="/my-portfolio/">Home</Link>
+                    <Link className="nav-link" to="/my-portfolio/resume">Resume</Link>
+                    <Link className="nav-link" to="/my-portfolio/contact">Contact</Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
