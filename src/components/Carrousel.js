@@ -13,6 +13,7 @@ import juegogato from '../assets/images/juegogato.png';
 import webscrapper from '../assets/images/webscrapper.png';
 import soduko from '../assets/images/soduko.png';
 import lakastapp from '../assets/images/lakastapp.png';
+import my-portfolio from '../assets/images/my-portfolio.png';
 
 
 class Carrousel extends React.Component {
@@ -26,8 +27,8 @@ class Carrousel extends React.Component {
                     title: 'Newsweek Clone Page',
                     text: 'In this project, I copied the style and layout of the Newsweek site, also I use google fonts because in the Newsweek site they use Roboto, Arial, Helvetica. Finally, I use Boostrap for learning purposes.',
                     imgSrc: newsweek,
-                    live: 'http://www.livepage.com',
-                    source: 'http://www.githubsource.com',
+                    live: 'https://rawcdn.githack.com/redacuve/NewsWeek/62c854242df610cac54aa26c727870f126b5014c/index.html',
+                    source: 'https://github.com/redacuve/NewsWeek',
                     technology: ['HTML', 'CSS', 'Bootstrap']
                 },
                 {
@@ -35,7 +36,7 @@ class Carrousel extends React.Component {
                     title: 'The odin Project Homepage',
                     text: 'In this project I imitate the layout of The Odin Project web page, It is built with my very own CSS framework (inspired by Twitter Bootstrap).',
                     imgSrc: odinproject,
-                    live: 'http://www.livepage.com',
+                    live: 'https://rawcdn.githack.com/redacuve/CloneOdinProject/02224a1fa4ed0a9727b0691b8aef3d2efcd8c73e/index.html',
                     source: 'https://github.com/redacuve/CloneOdinProject/tree/master',
                     technology: ['HTML', 'CSS', 'My own framework']
                 },
@@ -44,7 +45,7 @@ class Carrousel extends React.Component {
                     title: 'Federico Faggin Tribute Page',
                     text: 'This is Tribute page of Federico Faggin, Faggin is the designer of the Intel 4040 Processor.',
                     imgSrc: faggin,
-                    live: 'http://www.livepage.com',
+                    live: 'https://codepen.io/redacuve/full/vYEKbLj',
                     source: 'https://codepen.io/redacuve/pen/vYEKbLj',
                     technology: ['HTML', 'CSS']
                 },
@@ -53,7 +54,7 @@ class Carrousel extends React.Component {
                     title: 'The Next Web Homepage',
                     text: 'This a imitation of the  layout of the News page https://thenextweb.com/. The structure of the page is build using Flexbox, Grids, Floats and it have semantic HTML tags.',
                     imgSrc: thenextweb,
-                    live: 'http://www.livepage.com',
+                    live: 'https://rawcdn.githack.com/redacuve/Responsive-Design/32b3f799bfaaa0d2e08e152b660556e21a177151/index.html',
                     source: 'https://github.com/redacuve/Responsive-Design',
                     technology: ['HTML', 'CSS']
                 },
@@ -62,7 +63,7 @@ class Carrousel extends React.Component {
                     title: 'Smashing Magazine Heatmap',
                     text: 'This is a grayscale heat map of the website Smashing Magazine in this project every element have more gray if the elemten is greatest weight in the visual hierachy.',
                     imgSrc: smashingheatmap,
-                    live: 'http://www.livepage.com',
+                    live: 'https://rawcdn.githack.com/fdezcaminero/SmashingUX/cd0444e0efd047668a7c1fb5140f387f45df08f1/index.html',
                     source: 'https://github.com/fdezcaminero/SmashingUX/tree/Front-Page',
                     technology: ['HTML', 'CSS']
                 }
@@ -100,7 +101,7 @@ class Carrousel extends React.Component {
                     title: 'Lakastapp!',
                     text: 'This is a mobile web app where you can keep a record of every program you watch if the program is not in the database, is so easy to add that program!. With lakastapp you can know the time you watch every program.',
                     imgSrc: lakastapp,
-                    live: 'http://www.livepage.com',
+                    live: 'https://lakastapp.herokuapp.com/',
                     source: 'https://github.com/redacuve/lakastapp',
                     technology: ['HTML', 'CSS', 'Ruby on Rails', 'Javascript']
                 }
@@ -110,8 +111,8 @@ class Carrousel extends React.Component {
                     id: 0,
                     title: 'My Portfolio',
                     text: 'This is my personal site, and its responsive, It has very useful components for easy for maintance.',
-                    imgSrc: 'cuenco',
-                    live: 'http://www.livepage.com',
+                    imgSrc: my-portfolio,
+                    live: 'https://redacuve.github.io/my-portfolio/',
                     source: 'https://github.com/redacuve/my-portfolio',
                     technology: ['HTML', 'CSS', 'React']
                 }
