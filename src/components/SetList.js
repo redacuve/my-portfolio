@@ -3,7 +3,7 @@ import React from 'react';
 function SetList(props){
     return(
         <div className="set set-list">
-            <h2>{props.title}</h2>
+            <h2 className="br-indigo">{props.title}</h2>
             <ul className={(props.listflex === true) ? "d-flex flex-wrap" : ""}>
                 {
                 props.list.map(elem => {

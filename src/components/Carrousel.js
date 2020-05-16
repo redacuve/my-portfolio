@@ -73,7 +73,7 @@ class Carrousel extends React.Component {
                     title: 'Tic Tac Toe Game',
                     text: 'This is my own version of the Game Tic Tac Toe, in México this game is called \'El juego del Gato\', is playable on the console. ',
                     imgSrc: juegogato,
-                    live: 'http://www.livepage.com',
+                    live: null,
                     source: 'https://github.com/redacuve/Juego-Gato',
                     technology: ['Ruby']
                 },
@@ -82,7 +82,7 @@ class Carrousel extends React.Component {
                     title: 'MXN-USD Web Scrapper',
                     text: 'This is a USD-MXN web scraper. In México is very useful to know the value of the dollar every day, every bank here in Mexico has it own price of the dollar, this web scrapper goes to the webpage of every bank and scrap the value of the USD, then show it on the console, and saves it on a .csv file.',
                     imgSrc: webscrapper,
-                    live: 'http://www.livepage.com',
+                    live: null,
                     source: 'https://github.com/redacuve/MXN-USD-Currency-Scraper/tree/mxn-usd-feature',
                     technology: ['Ruby']
                 },
@@ -91,7 +91,7 @@ class Carrousel extends React.Component {
                     title: 'Soduko Solver',
                     text: 'This is a sudoku solver, it read a sudoku from a csv file and tries to solve it. Project written in Ruby Languaje.',
                     imgSrc: soduko,
-                    live: 'http://www.livepage.com',
+                    live: null,
                     source: 'https://github.com/redacuve/sudoku-solver',
                     technology: ['Ruby']
                 },
@@ -145,10 +145,10 @@ class Carrousel extends React.Component {
     render(){
         return(
             <Container fluid={true} >
-                    <Nav className="border-bottom justify-content-center">
-                        <button className="nav-link text-dark" onClick={()=> this.changeDefault(1)}>HTML / CSS</button>
-                        <button className="nav-link text-dark" onClick={()=> this.changeDefault(2)}>Ruby / Rails</button>
-                        <button className="nav-link text-dark" onClick={()=> this.changeDefault(3)}>Javascript / React</button>
+                    <Nav className="border-bottom justify-content-center c-indigo pb-2 mb-2">
+                        <button className={this.state.default === 'htmlCss' ? "btn btn-link br-blue c-indigo font-weight-bolder" : "btn btn-link c-blue"} onClick={()=> this.changeDefault(1)}>HTML / CSS</button>
+                        <button className={this.state.default === 'rubyRails' ? "btn btn-link br-blue c-indigo font-weight-bolder" : "btn btn-link c-blue"} onClick={()=> this.changeDefault(2)}>Ruby / Rails</button>
+                        <button className={this.state.default === 'javascriptReact' ? "btn btn-link br-blue c-indigo font-weight-bolder" : "btn btn-link c-blue"} onClick={()=> this.changeDefault(3)}>Javascript / React</button>
                     </Nav>
                     <div className="projects-container d-flex justify-content-around flex-wrap">
                         {this.myProjects(this.state[this.state.default])}

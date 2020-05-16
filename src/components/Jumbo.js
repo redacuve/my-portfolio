@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 
 function Jumbo(props) {
     return(
-        <Jumbotron fluid={true}>
+        <Jumbotron>
             <Container>
                 <h1 className="display-4">{props.title}</h1>
                 {props.subtitle && <h4 className="display-5">{props.subtitle}</h4>}

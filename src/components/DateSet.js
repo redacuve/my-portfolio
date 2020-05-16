@@ -3,7 +3,7 @@ import React from 'react'
 function DateSet(props){
     return(
         <div className="dateset">
-            <h2>{props.title}</h2>
+            <h2 className="br-indigo">{props.title}</h2>
             {props.list.map((elem, index) => {
                 return (
                 <div className="row" key={index}>

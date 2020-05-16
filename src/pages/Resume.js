@@ -15,11 +15,11 @@ function Resume() {
                     <p>
                         Hello, I’m David I’m a full-stack software engineer. I have a computer science degree, I worked on IT in a company in Mexico, but now I’m looking for a remote job that will put my skills as a software engineer to work.
                     </p>
-                    <h3>Location</h3>
+                    <h3 className="br-blue">Location</h3>
                     <p>
                         Xalapa, Veracruz, Mexico (Able to relocate).
                     </p>
-                    <h3>Phone</h3>
+                    <h3 className="br-blue">Phone</h3>
                     <p>
                         +52 (228) 185-5336
                     </p>
