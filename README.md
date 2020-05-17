@@ -1,68 +1,139 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- Badges -->
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-0.1-blue.svg?cacheSeconds=2592000" />
+  <a href="#" target="_blank">
+    <img alt="License: MIT " src="https://img.shields.io/badge/License-GPL-yellow.svg" />
+  </a>
+  <a href="https://twitter.com/redacuve" target="_blank">
+    <img alt="Twitter: redacuve " src="https://img.shields.io/twitter/follow/redacuve.svg?style=social" />
+  </a>
+</p>
 
-## Available Scripts
 
-In the project directory, you can run:
+<!-- Project Header -->
+  <p align="center">
+    <img src="src/assets/images/my-portfolio.png" width="250">
+  <br>
+  <h1 align="center">Project My Portfolio</h1>
+  <p align="center">
+  <br>
+   <a href="https://github.com/redacuve/my-portfolio"><strong>Explore the repo »</strong></a>
+  <br>
+    <a href="https://github.com/redacuve/my-portfolio/issues">Request Feature</a>
+  </p>
+  <h2 align="center"><a href="https://redacuve.github.io/my-portfolio/"><strong>Live Link!</strong></a></h2>
 
-### `yarn start`
+<!-- TABLE OF CONTENTS -->
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Table of Contents
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+* [About the Project](#about-the-project)
 
-### `yarn test`
+* [Built With](#built-with)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* [Getting Started](#getting-started)
 
-### `yarn build`
+* [How it Works](#how-it-works)
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* [Contributing](#contributing)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+* [License](#license)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* [Contact](#contact)
 
-### `yarn eject`
+* [Acknowledgements](#acknowledgements)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<!-- ABOUT THE PROJECT -->
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## About The Project
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+This is my web Page, here you can find my resume and my portfolio. this web app is built completely with REACT, also is responsive, you can check it live.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Go to: <a href="https://redacuve.github.io/my-portfolio/" target="_blank">https://redacuve.github.io/my-portfolio/</a>
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Built With
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* [React](https://reactjs.org/docs/getting-started.html)
 
-### Code Splitting
+* [HTML5](https://developer.mozilla.org/es/docs/HTML/HTML5)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+* [CSS](https://developer.mozilla.org/es/docs/Web/CSS)
 
-### Analyzing the Bundle Size
+* React Packages used:
+    * [react-fontawesome](https://github.com/FortAwesome/react-fontawesome)
+    * [react-bootstrap](https://react-bootstrap.github.io/)
+    * [react-router](https://reacttraining.com/react-router/web/guides/quick-start)
+    * [gh-pages](https://www.npmjs.com/package/gh-pages)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+* Deployed with
+    * [GitHubPages](https://pages.github.com/)
+<!-- GETTING STARTED -->
 
-### Making a Progressive Web App
+## Getting Started
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+To get a local copy up and running follow these simple steps.
 
-### Advanced Configuration
+Clone or fork the <a href="https://github.com/redacuve/my-portfolio">repo</a> [git@github.com:redacuve/my-portfolio.git]
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+*note you need have install npm or yarn
+* [npm](https://www.npmjs.com/get-npm)
+* [yarn](https://classic.yarnpkg.com/en/docs/install)
 
-### Deployment
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+<!-- HOW IT WORKS -->
+## How it Works
 
-### `yarn build` fails to minify
+It is built with react, inside the src folder is everything, index.js is the main file, it uses the index.html located inside the public folder, inside src are three folders, one folder contains the assets of the page (images), the pages folder has 3 pages inside Homepage, Contacpage, and Resumepage, and the components are located inside components folder, I created that components to be easy to maintain, feel free to take any of the components.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+### Running the code
+
+*   Navigate to the root directory of the project
+
+*   Run this command on your terminal to run the code locally on http://localhost:3000:
+    ```
+    $ npm start
+    ```
+*   Also you can build this app for production, react are going to make a build folder with minified files, and filenames with hashes for best performance
+    ```
+    $ npm build
+    ```
+*   You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+* To learn React, check out the [React documentation](https://reactjs.org/).
+
+<!-- CONTRIBUTING -->
+
+## Contributing
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+
+5. Open a Pull Request
+
+<!-- LICENSE -->
+
+## License
+
+This project is under the <a href="https://www.gnu.org/licenses/gpl-3.0.html">GNU Public License V3</a>. For more information see <a href="https://github.com/redacuve/my-portfolio/blob/master/LICENSE">here</a>
+
+<!-- CONTACT -->
+
+## Contact
+
+Rey David Cuevas Vela - [@redacuve](https://twitter.com/redacuve) - redacuve@gmail.com -[linkedin.com/in/redacuve/](https://www.linkedin.com/in/redacuve/)
+
+Project Link: [github.com/redacuve/my-portfolio](https://github.com/redacuve/my-portfolio) - Portfolio Project.
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## Acknowledgements
+
+* [Rey David Cuevas Vela](https://github.com/redacuve)
